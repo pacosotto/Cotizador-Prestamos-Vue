@@ -1,5 +1,19 @@
-# Vue 3 + Vite
+Cotizador de Préstamos en Vue
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+ * Este proyecto es un cotizador de préstamos desarrollado en Vue, que permite calcular el pago mensual basado en el monto solicitado y el plazo de pago.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+Características
+
+ 1. Selección de Monto: Utiliza un input de tipo range para elegir el monto del préstamo, acompañado de botones para incrementar o decrementar el valor seleccionado.
+
+ 2. Selección de Plazo: Un campo select permite escoger el plazo en meses para el pago del préstamo.
+
+ 3. Cálculo en Tiempo Real: Muestra el pago mensual estimado debajo de las opciones seleccionadas.
+
+Tecnologías Utilizadas
+
+ * Vue: Framework principal para la creación de la interfaz de usuario.
+
+ * JavaScript: Lógica de negocio y funcionalidad del cotizador.
+
+ * Tailwind: Estilización y diseño de la interfaz.
